@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { usePathname } from "next/navigation";
 import { BrandLink } from "@/components/BrandLink";
 import {
   createEmptyConfessionState,
@@ -11,6 +12,7 @@ import {
   type CustomSin,
 } from "@/lib/confession-types";
 import { generateConfessionPdf } from "@/lib/confession-pdf";
+import { saveLastVersion } from "@/lib/last-version";
 import "./confession.css";
 
 function loadSavedState(storageKey: string): ConfessionState | null {
@@ -61,6 +63,11 @@ export function ConfessionClient({
   const [showClear, setShowClear] = useState(false);
   const [pdfBusy, setPdfBusy] = useState(false);
   const [pdfError, setPdfError] = useState<string | null>(null);
+  const pathname = usePathname();
+
+  useEffect(() => {
+    if (pathname) saveLastVersion(pathname);
+  }, [pathname]);
 
   useEffect(() => {
     const saved = loadSavedState(storageKey);

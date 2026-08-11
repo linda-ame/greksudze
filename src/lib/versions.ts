@@ -73,3 +73,10 @@ export const ADULT_VERSIONS: ContentVersion[] = [
     available: true,
   },
 ];
+
+/** Concrete examination routes that can be resumed from the home-screen app. */
+export const CONTENT_VERSION_HREFS: string[] = [
+  "/berniem",
+  ...TEEN_VERSIONS.map((v) => v.href),
+  ...ADULT_VERSIONS.filter((v) => v.available).map((v) => v.href),
+];

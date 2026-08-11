@@ -1,13 +1,43 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import introData from "@/data/confession/children/sirdsapzinas-izmeklesana.json";
 import { BrandMark } from "@/components/BrandMark";
+import { isStandaloneApp, loadLastVersion } from "@/lib/last-version";
 import "./welcome.css";
 
 const introText = introData.content.intro.text;
 
 export function WelcomeFlow() {
+  const router = useRouter();
+  const [checking, setChecking] = useState(true);
+
+  useEffect(() => {
+    if (isStandaloneApp()) {
+      const last = loadLastVersion();
+      if (last) {
+        router.replace(last);
+        return;
+      }
+    }
+    setChecking(false);
+  }, [router]);
+
+  if (checking) {
+    return (
+      <div className="welcome">
+        <div className="welcome-glow" aria-hidden />
+        <div className="welcome-shell">
+          <p className="welcome-lead" style={{ margin: 0 }}>
+            Ielādē…
+          </p>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className="welcome">
       <div className="welcome-glow" aria-hidden />
