@@ -21,6 +21,11 @@ export const metadata: Metadata = {
   description:
     "Palīgs sirdsapziņas izmeklēšanai — dati paliek tikai Tavā ierīcē.",
   applicationName: "Grēksūdze",
+  appleWebApp: {
+    capable: true,
+    title: "Grēksūdze",
+    statusBarStyle: "default",
+  },
 };
 
 export default function RootLayout({
