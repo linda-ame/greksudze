@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+:root {
+  --stone: #2a3544;
+  --stone-mid: #3d4f63;
+  --mist: #e8eef4;
+  --paper: #f4f7fa;
+  --ink: #1e2834;
+  --ink-soft: #5a6b7d;
+  --candle: #c9a66b;
+  --candle-deep: #a88445;
+  --sage: #6b8f8a;
+  --danger: #9b4d4d;
+  --line: rgba(42, 53, 68, 0.12);
+  --card: rgba(255, 255, 255, 0.72);
+}
+
+@theme inline {
+  --color-background: var(--paper);
+  --color-foreground: var(--ink);
+  --font-sans: var(--font-body);
+  --font-display: var(--font-display);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  color: var(--ink);
+  background:
+    radial-gradient(900px 520px at 8% -8%, rgba(107, 143, 138, 0.22) 0%, transparent 55%),
+    radial-gradient(700px 420px at 96% 4%, rgba(201, 166, 107, 0.18) 0%, transparent 50%),
+    linear-gradient(165deg, #eef3f7 0%, #e4ebf2 48%, #dfe8ef 100%);
+  font-family: var(--font-body), "Manrope", system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+::selection {
+  background: rgba(201, 166, 107, 0.35);
+}

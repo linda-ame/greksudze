@@ -1,0 +1,75 @@
+export type AgeVersionId = "children" | "teens" | "adults";
+
+export type AgeVersion = {
+  id: AgeVersionId;
+  title: string;
+  subtitle: string;
+  href: string | null;
+  available: boolean;
+};
+
+export type ContentVersion = {
+  id: string;
+  title: string;
+  subtitle: string;
+  href: string;
+  available: boolean;
+};
+
+export const AGE_VERSIONS: AgeVersion[] = [
+  {
+    id: "children",
+    title: "Jaunākā vecuma bērni",
+    subtitle: "Līdz apmēram 11 gadiem",
+    href: "/berniem",
+    available: true,
+  },
+  {
+    id: "teens",
+    title: "Pusaudžiem",
+    subtitle: "No 12 gadiem — versijas 12–14 un 15–18",
+    href: "/pusaudziem",
+    available: true,
+  },
+  {
+    id: "adults",
+    title: "Pieaugušajiem",
+    subtitle: "Vairākas versijas pieaugušo sagatavošanai",
+    href: "/pieaugusajiem",
+    available: true,
+  },
+];
+
+export const TEEN_VERSIONS: ContentVersion[] = [
+  {
+    id: "12-14",
+    title: "12–14 gadi",
+    subtitle: "Sirdsapziņas izmeklēšana jaunākiem pusaudžiem",
+    href: "/pusaudziem/12-14",
+    available: true,
+  },
+  {
+    id: "15-18",
+    title: "15–18 gadi",
+    subtitle: "Sirdsapziņas izmeklēšana vecākiem pusaudžiem",
+    href: "/pusaudziem/15-18",
+    available: true,
+  },
+];
+
+export const ADULT_VERSIONS: ContentVersion[] = [
+  {
+    id: "katolis-lv",
+    title: "No katolis.lv",
+    subtitle: "Sirdsapziņas izmeklēšana pēc katolis.lv materiāla",
+    href: "/pieaugusajiem/katolis-lv",
+    available: true,
+  },
+  {
+    id: "dveseles-spogulis",
+    title: "Dvēseles spogulis",
+    subtitle: "No LELB Baznīcas gadagrāmatas",
+    href: "/pieaugusajiem/dveseles-spogulis",
+    available: true,
+  },
+];

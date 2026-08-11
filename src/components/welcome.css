@@ -1,0 +1,202 @@
+.welcome {
+  position: relative;
+  min-height: 100dvh;
+  padding: 2.5rem 1.25rem 3rem;
+  overflow: hidden;
+}
+
+.welcome-glow {
+  position: absolute;
+  inset: -20% 20% auto;
+  height: 50%;
+  background: radial-gradient(
+    ellipse at center,
+    rgba(201, 166, 107, 0.2),
+    transparent 70%
+  );
+  pointer-events: none;
+  animation: welcome-rise 1.2s ease-out both;
+}
+
+.welcome-shell {
+  position: relative;
+  max-width: 36rem;
+  margin: 0 auto;
+  animation: welcome-fade-up 0.7s ease-out both;
+}
+
+.welcome-brand-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.85rem;
+  margin-bottom: 1.75rem;
+  animation: welcome-fade-up 0.8s ease-out 0.08s both;
+}
+
+.welcome-brand-block-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.welcome-brand-block-link:hover .welcome-brand {
+  color: var(--candle-deep);
+}
+
+.welcome-mark {
+  display: block;
+  flex-shrink: 0;
+  filter: drop-shadow(0 8px 18px rgba(42, 53, 68, 0.08));
+}
+
+.welcome-brand {
+  margin: 0;
+  font-family: var(--font-display), "Source Serif 4", Georgia, serif;
+  font-size: clamp(2.4rem, 8vw, 3.35rem);
+  font-weight: 500;
+  font-synthesis: none;
+  letter-spacing: -0.03em;
+  line-height: 1;
+  color: var(--stone);
+  transition: color 0.15s ease;
+}
+
+.welcome-panel {
+  animation: welcome-fade-up 0.55s ease-out both;
+}
+
+.welcome-title {
+  margin: 0 0 1rem;
+  font-family: var(--font-display), "Source Serif 4", Georgia, serif;
+  font-size: 1.55rem;
+  font-weight: 500;
+  color: var(--stone);
+}
+
+.welcome-lead {
+  margin: 0 0 1.5rem;
+  color: var(--ink-soft);
+  line-height: 1.5;
+  font-size: 1.02rem;
+}
+
+.welcome-prose p {
+  margin: 0 0 0.85rem;
+  line-height: 1.45;
+  color: var(--ink);
+  font-size: 1.02rem;
+}
+
+.welcome-btn {
+  display: block;
+  width: 100%;
+  margin-top: 1.5rem;
+  padding: 0.95rem 1.2rem;
+  border: none;
+  border-radius: 12px;
+  background: var(--stone);
+  color: #f4f7fa;
+  font: inherit;
+  font-weight: 650;
+  font-size: 1.05rem;
+  cursor: pointer;
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.welcome-btn:hover {
+  transform: translateY(-1px);
+  background: var(--stone-mid);
+}
+
+.welcome-btn-ghost {
+  background: transparent;
+  color: var(--stone);
+  border: 1px solid var(--line);
+  margin-top: 1rem;
+}
+
+.welcome-btn-ghost:hover {
+  background: rgba(255, 255, 255, 0.45);
+}
+
+.age-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.85rem;
+}
+
+.age-card {
+  display: grid;
+  gap: 0.35rem;
+  padding: 1.15rem 1.2rem;
+  border-radius: 14px;
+  border: 1px solid var(--line);
+  background: var(--card);
+  backdrop-filter: blur(8px);
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.age-card-live:hover {
+  transform: translateY(-2px);
+  border-color: rgba(201, 166, 107, 0.55);
+  box-shadow: 0 14px 36px rgba(42, 53, 68, 0.1);
+}
+
+.age-card-title {
+  font-family: var(--font-display), "Source Serif 4", Georgia, serif;
+  font-size: 1.25rem;
+  color: var(--stone);
+}
+
+.age-card-sub {
+  color: var(--ink-soft);
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.age-card-cta {
+  margin-top: 0.35rem;
+  font-weight: 650;
+  color: var(--candle-deep);
+  font-size: 0.95rem;
+}
+
+.age-card-soon {
+  opacity: 0.72;
+  position: relative;
+}
+
+.age-card-badge {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+
+@keyframes welcome-fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes welcome-rise {
+  from {
+    opacity: 0;
+    transform: scale(0.92);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

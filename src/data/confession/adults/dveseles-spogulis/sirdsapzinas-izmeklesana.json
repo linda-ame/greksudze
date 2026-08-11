@@ -1,0 +1,161 @@
+{
+  "meta": {
+    "type": "conscience_examination",
+    "version": "1.0",
+    "language": "lv",
+    "source": "LELB Baznīcas gadagrāmata",
+    "sourceLabel": "Dvēseles spogulis"
+  },
+  "content": {
+    "intro": {
+      "id": "intro",
+      "title": "Ievads",
+      "text": []
+    },
+    "preparation_prayer": {
+      "id": "preparation_prayer",
+      "title": "Sagatavošanās sirdsapziņas izmeklēšanai",
+      "attribution": "Šīs sagatavošanās un lūgšanas teksts ņemts no katolis.lv.",
+      "text": [
+        "Lai sirdsapziņas izmeklēšana būtu auglīga, tās pamatā jābūt pārliecībai, ka Dievs cilvēku mīl un grib tam piedot grēkus. Tikai tas palīdzēs izvairīties no sevis attaisnošanas Dieva priekšā. Uz sevi jāraugās it kā Kristus acīm, kurš vēlas dziedināt, nevis tiesāt. Pirms sirdsapziņas izmeklēšanas vērts palūkoties uz Kristus krustu, lai ticības acīm ieraudzītu tur savu grēku, kas jau ir uzvarēts un piesists krustā. Kristus vēlas ikvienam dot iespēju piedalīties savā uzvarā: tikai ar paļāvību jātuvojas Viņam un jānosauc savi grēki.",
+        "Sirdsapziņas izmeklēšanu ieteicams sākt ar pateicību Dievam par visām Viņa labestības un mīlestības izpausmēm, ko ik dienas saņemam. Pavaicāsim sev: kas man pēdējās dienās, nedēļās, mēnešos vai gados bijusi īpaša žēlastība, par ko es gribētu tagad pateikties Kungam? Sāksim ar konkrētiem iekšējiem pārdzīvojumiem, ārējām situācijām, notikumiem un attiecībām ar tuvākajiem, kas mums bijušas īpaša prieka avots. Mēs pateicamies Dievam ne tikai par tām dāvanām, kas mūsos rada prieku un sajūsmu, bet arī par grūtībām un ciešanām, kas kalpo kā aicinājums vēl vairāk paļauties uz Dievu savā dzīvē.",
+        "Pēc tam var lūgt Svētā Gara gaismu un drosmi pazīt savus grēkus."
+      ],
+      "prayer": {
+        "id": "holy_spirit_prayer",
+        "title": "Lūgšana Svētajam Garam",
+        "text": [
+          "Nāc, Svētais Gars, apgaismo manu prātu, lai es pazītu savus grēkus; modini manu gribu un manu sirdi, lai es par tiem nožēlotu un vaļsirdīgi tajos atzītos; dāvā man spēku, lai es tos labotu un par tiem gandarītu.",
+          "Svētā Marija, grēcinieku patvērums, nāc man palīgā!"
+        ]
+      }
+    },
+    "commandments": [
+      {
+        "id": "against_god",
+        "title": "Grēki pret Dievu",
+        "questions": [
+          { "id": "q_g_1", "text": "Esmu klaji sacēlies pret Dievu, noliedzot Viņu, vainojot vai citādi vēršoties pret Viņa autoritāti." },
+          { "id": "q_g_2", "text": "Esmu aizmirsis par Dievu ikdienas rūpēs." },
+          { "id": "q_g_3", "text": "Esmu attālinājies no Dieva ar garīgu nolaidību, ilgi neizsūdzētiem grēkiem." },
+          { "id": "q_g_4", "text": "Esmu nepamatoti, bez būtiska iemesla izlaidis svētdienas un svētku dievkalpojumus." },
+          { "id": "q_g_5", "text": "Esmu kavējis dievkalpojumus un lūgšanas." },
+          { "id": "q_g_6", "text": "Neesmu pienācīgi sagatavojies dievkalpojumiem, izmeklējot sirdsapziņu, un lūgšanām, liekot norimties sevī pasaulīgai rosmei." },
+          { "id": "q_g_7", "text": "Neesmu labi un bez nolaidības pildījis savus kalpošanas pienākumus vai saistības draudzē." },
+          { "id": "q_g_8", "text": "Esmu izturējies nolaidīgi pret ikdienas lūgšanām (rīta un vakara), izlaižot tās, noskaitot formāli vai sasteidzot." },
+          { "id": "q_g_9", "text": "Esmu pieļāvis nolaidību lūgšanā un garīgas lasīšanas laikā." },
+          { "id": "q_g_10", "text": "Neesmu godbijīgi izturējies pret Dieva Vārdu; esmu izrunājis to velti, lieki un nevietā." },
+          { "id": "q_g_11", "text": "Esmu ļāvies māņticīgām zīmēm ikdienā." },
+          { "id": "q_g_12", "text": "Esmu kautrējies Dievu apliecināt ikdienišķās situācijās (galda lūgšana u. c.)." },
+          { "id": "q_g_13", "text": "Esmu kautrējies un speciāli slēpis savu kristīgo pārliecību aiz bailēm vai neērtības, ka kāds varētu to kritizēt vai apsmiet." },
+          { "id": "q_g_14", "text": "Neesmu ar vārdiem un darbiem bijis dievbijības un Kristus liecinieks situācijās, kas to no manis prasa." },
+          { "id": "q_g_15", "text": "Esmu cietis no šaubām ticībā." },
+          { "id": "q_g_16", "text": "Esmu iekšēji kurnējis un dusmojis uz Dievu." },
+          { "id": "q_g_17", "text": "Esmu šaubu, vājuma vai grūtā brīdī pievērsies zīlniekiem, vārdotājiem, ekstrasensiem un burvjiem u. tml." },
+          { "id": "q_g_18", "text": "Neesmu cienīgi izturējies baznīcā; esmu bijis tur piedauzīgā apģērbā, pārlieku brīvā izturēšanās manierē, skaļi jeb traucējoši citiem." },
+          { "id": "q_g_19", "text": "Neesmu cienīgi izturējies pret svētlietām, krūšu krustu, lūgšanu vietu savā mājā." },
+          { "id": "q_g_20", "text": "Neesmu ar cieņu attiecies pret garīdzniekiem; neesmu aizlūgšanā par savu garīgo vadītāju (mācītāju)." },
+          { "id": "q_g_21", "text": "Neesmu lūdzis par savu draudzi un neesmu bijis atsaucīgs draudzes vajadzībām." },
+          { "id": "q_g_22", "text": "Esmu skopojies un savu iespēju robežās neesmu ziedojis un devis Dievam Viņa tiesu." },
+          { "id": "q_g_23", "text": "Neesmu vienmēr cienīgi izrunājis Dieva vārdu; esmu lietojis „svēto” žargonu." },
+          { "id": "q_g_24", "text": "Esmu nepatiesi zvērējis, piesaucot Dievu, Baznīcu, savu kristīgo pārliecību." },
+          { "id": "q_g_25", "text": "Es kā kristietis ar savu rīcību esmu devis iemeslu piedauzībai ticības līdzgaitniekiem un neticīgajiem." },
+          { "id": "q_g_26", "text": "Esmu ar kādu savu rīcību vai vārdiem veicinājis un atbalstījis bezdievīgu un nesvētu izturēšanos vai darbus." },
+          { "id": "q_g_27", "text": "Esmu apslēpis kādus grēkus grēksūdzē vai sūdzējis tos, mazinot savu vainu." },
+          { "id": "q_g_28", "text": "Neesmu pienācīgi ievērojis gavēni – atturībā un liegumos." },
+          { "id": "q_g_29", "text": "Neesmu izvairījies no svētku un izklaides rosības gavēņa laikos." },
+          { "id": "q_g_30", "text": "Neesmu palīdzējis un uzmundrinājis tos, kas ticībā paguruši." },
+          { "id": "q_g_31", "text": "Neesmu izpildījis uzņemtās saistības aizlūgumos par tuvākajiem." },
+          { "id": "q_g_32", "text": "Neesmu atbildīgi izturējies pret savu garīgo dzīvi un pieaugšanu ticībā; esmu ļāvies reliģiskai rutīnai un pašplūsmai." },
+          { "id": "q_g_33", "text": "Neesmu atradis īpašu laiku padziļinātai lūgšanai, garīgai lasīšanai un svētapcerei." },
+          { "id": "q_g_34", "text": "Esmu aizmirsis, ka Dievam vairāk jāklausa nekā cilvēkiem." }
+        ]
+      },
+      {
+        "id": "against_neighbor",
+        "title": "Grēki pret tuvāko",
+        "questions": [
+          { "id": "q_n_1", "text": "Neesmu ar atbilstošu cieņu izturējies pret saviem vecākiem un ģimenes locekļiem." },
+          { "id": "q_n_2", "text": "Neesmu ar pienācīgām rūpēm gādājis par man uzticētu cilvēku vajadzībām." },
+          { "id": "q_n_3", "text": "Neesmu cieņpilni un ar atbilstošu godu izturējies pret tiem, kam manā dzīvē dažādās jomās dota laicīga un garīga autoritāte." },
+          { "id": "q_n_4", "text": "Esmu pārsniedzis savas pilnvaras, autoritāti un pārspēku pār mazākiem, neietekmīgākiem, vājākiem un citādi subordinētiem cilvēkiem." },
+          { "id": "q_n_5", "text": "Esmu cietis no neiejūtības vai cietsirdības." },
+          { "id": "q_n_6", "text": "Esmu pacēlis balsi vai roku, sodot pār mēru." },
+          { "id": "q_n_7", "text": "Esmu tieši vai netieši apdraudējis kāda dzīvību." },
+          { "id": "q_n_8", "text": "Esmu atbalstījis abortus, eitanāziju, klonēšanu un citas bioamorālitātes." },
+          { "id": "q_n_9", "text": "Esmu alkstījis pēc goda; slēpti vai atklāti izcēlis sevi." },
+          { "id": "q_n_10", "text": "Neesmu pienācīgi pildījis savas laicīgās saistības un pienākumus pasaulē." },
+          { "id": "q_n_11", "text": "Manas nolaidības, neuzmanības, slinkuma vai kļūdu dēļ kādam ir jācieš vai jāpanes neērtības." },
+          { "id": "q_n_12", "text": "Esmu izturējies nevērīgi pret citu sāpēm un grūtumiem; apzināti novērsies no situācijām, kur nepieciešams mans atbalsts." },
+          { "id": "q_n_13", "text": "Neesmu meklējis izlīgumu ar cilvēkiem, kuru priekšā ir mana vaina, un mieru ar tiem, ar kuriem ir nesaskaņas." },
+          { "id": "q_n_14", "text": "Neesmu lietās un situācijās vispirms meklējis mīlestības attieksmi." },
+          { "id": "q_n_15", "text": "Esmu izturējies gļēvi un pielaidīgi, kur jāparāda nelokāmība un patiesa principialitāte." },
+          { "id": "q_n_16", "text": "Esmu glaimojis." },
+          { "id": "q_n_17", "text": "Neesmu rīkojies korekti darījumos un solījumos; apzināti kavējis, vilcinājis un citādi lauzis ikdienišķas un īpašas saistības." },
+          { "id": "q_n_18", "text": "Neesmu ar rūpību izturējies pret svešu mantu, lietām vai īpašumu." },
+          { "id": "q_n_19", "text": "Esmu krāpis ar uzrēķiniem; izprasti, slēpti vai atklāti diedelējis." },
+          { "id": "q_n_20", "text": "Esmu ielaidies apšaubāmos darījumos, negodīgā rīcībā." },
+          { "id": "q_n_21", "text": "Manā lietošanā ir zagtas lietas, negodīgi iegūtas vērtības vai tamlīdzīgas lietas." },
+          { "id": "q_n_22", "text": "Neesmu nomaksājis parādus tiem, no kā aizņemos. Neesmu aizdevis un dāvājis žēlastības dāvanas." },
+          { "id": "q_n_23", "text": "Esmu kādās reizēs un vietās izturējies piedauzīgi, uzmācīgi vai izaicinoši. Ar savu izskatu, rīcību vai vārdiem esmu vedis kādu grēkā. Ar saviem vārdiem un sarunām esmu bijis par kārdināšanu vai krišanu tuvākajam." },
+          { "id": "q_n_24", "text": "Neesmu vairojies no divdomībām, rupjībām, liekvārdības un tukšvārdības. Esmu melojis un mānījies; man ir mani lielie un neatkāpīgie mazie meli." },
+          { "id": "q_n_25", "text": "Esmu noklusējis patiesību." },
+          { "id": "q_n_26", "text": "Esmu cēlis atklātu vai izsmalcinātu viltus liecību." },
+          { "id": "q_n_27", "text": "Esmu cēlis neslavu tuvākajiem un svešiem." },
+          { "id": "q_n_28", "text": "Esmu izplatījis baumas un nepārbaudītas ziņas." },
+          { "id": "q_n_29", "text": "Esmu lasījis svešas ziņas, pētījis svešu cilvēku privātumu." },
+          { "id": "q_n_30", "text": "Esmu dzīvojis nenovīdībā un skaudībā pret kādu no tuvākajiem." },
+          { "id": "q_n_31", "text": "Esmu iekārojis svešu godu, stāvokli vai mantu." },
+          { "id": "q_n_32", "text": "Neesmu meklējis mieru ar visiem, cik vien tas iespējams." },
+          { "id": "q_n_33", "text": "Neesmu bijis uzticams." },
+          { "id": "q_n_34", "text": "Neesmu cieši glabājis man atklātos noslēpumus." },
+          { "id": "q_n_35", "text": "Neesmu bijis saudzīgs pret visu dzīvo dabu un radību." },
+          { "id": "q_n_36", "text": "Esmu aizmirsis, ka tas, kas saka, ka mīl Dievu, bet nemīl tuvāko, ir melis." }
+        ]
+      },
+      {
+        "id": "against_self",
+        "title": "Grēki pret sevi",
+        "questions": [
+          { "id": "q_s_1", "text": "Esmu ļāvies savām kaislībām un iegribām vairāk nekā Dieva gribai." },
+          { "id": "q_s_2", "text": "Neesmu rūpējies par ticības tikumu izkopšanu savā dvēselē." },
+          { "id": "q_s_3", "text": "Neesmu spējis atšķirt miesas, pasaules un velna vilinājumus iepretī Dieva prātam, gribai un Svēto Rakstu vārdiem." },
+          { "id": "q_s_4", "text": "Neesmu pazinis savas kaisles un vājības. Neesmu bijis modrībā par tām." },
+          { "id": "q_s_5", "text": "Neesmu zinājis savu dāvanu un Dieva doto izdošanos; esmu paaugstinājies ar tām." },
+          { "id": "q_s_6", "text": "Neesmu vairojies no lietām, apstākļiem, situācijām un cilvēkiem, kas var pazudinoši ietekmēt mani." },
+          { "id": "q_s_7", "text": "Neesmu vienmēr meklējis to, kas var celt manu ticību un stiprināt svētdzīvē." },
+          { "id": "q_s_8", "text": "Esmu izpaticis sev un lutinājis sevi." },
+          { "id": "q_s_9", "text": "Neesmu vingrinājies sevi aizliegt un uzupurēt." },
+          { "id": "q_s_10", "text": "Esmu vairojies no sava „krusta”." },
+          { "id": "q_s_11", "text": "Neesmu pacietīgi panesis pārbaudījumus." },
+          { "id": "q_s_12", "text": "Savā garīgajā dzīvē esmu ļāvies žēlabām un sūdzēšanām." },
+          { "id": "q_s_13", "text": "Neesmu pārvarējis savu Es, zemojoties situācijās, kas prasa manu zemošanos." },
+          { "id": "q_s_14", "text": "Neesmu pārvarējis lepnību, kas neļauj lūgt palīdzību un atbalstu." },
+          { "id": "q_s_15", "text": "Esmu ļāvies materiālai un garīgai bezrūpībai." },
+          { "id": "q_s_16", "text": "Esmu pārspīlējis, dramatizējis un pārspīlēti uztraucies par savas dzīves kvalitāti." },
+          { "id": "q_s_17", "text": "Esmu dzīvojis izšķērdīgi." },
+          { "id": "q_s_18", "text": "Esmu skopojies." },
+          { "id": "q_s_19", "text": "Esmu slinkojis." },
+          { "id": "q_s_20", "text": "Esmu pārpūlējies." },
+          { "id": "q_s_21", "text": "Neesmu sekojis prāta un domu tīrībai." },
+          { "id": "q_s_22", "text": "Neesmu turējis savas dvēseles jūtas un miesu tiklībā un šķīstībā." },
+          { "id": "q_s_23", "text": "Esmu dzīvojis pašnāvības nodomos." },
+          { "id": "q_s_24", "text": "Esmu kalpojis kaitīgiem ieradumiem, psiholoģiskām un fiziskām atkarībām." },
+          { "id": "q_s_25", "text": "Esmu dzīvojis izmisuma varā, ka Dievs nevar piedot vai apžēlot." },
+          { "id": "q_s_26", "text": "Esmu dzīvojis bezrūpīgā paļāvībā uz Dieva žēlastību." },
+          { "id": "q_s_27", "text": "Neesmu vienmēr atcerējies, ka esmu Svētā Gara mājoklis." }
+        ]
+      }
+    ],
+    "after_examination_prayer": {
+      "id": "after_examination_prayer",
+      "title": "Nožēlas un apņemšanās lūgšana",
+      "text": [
+        "Dievs, es atzīstu savus grēkus un nožēloju, ka esmu Tevi aizvainojis.",
+        "Piedod man un palīdzi man sākt no jauna ar paļāvību uz Tavu mīlestību.",
+        "Dod man spēku laboties un gandarīt.",
+        "Palīdzi man sagatavoties grēksūdzei ar atvērtu un godīgu sirdi."
+      ]
+    }
+  }
+}
