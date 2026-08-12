@@ -14,9 +14,11 @@ export default function AgeSelectPage() {
         </div>
         <section className="welcome-panel">
           <h1 className="welcome-title">Izvēlies versiju</h1>
-          <p className="welcome-lead">
-            Saturs un lūgšanas var atšķirties pēc vecuma. Pusaudžiem un
-            pieaugušajiem ir vairākas versijas.
+          <p className="welcome-note">
+            Bērnu un pusaudžu versijām par pamatu ņemts katolis.lv grēksūdzes
+            saturs; lapas autors pēc saviem uzskatiem pielāgojis jautājumus un
+            valodu, kā arī noteicis vecuma grupu iedalījumu. Nav apstiprināts
+            teoloģisks materiāls — lietot uz savu atbildību.
           </p>
           <ul className="age-list">
             {AGE_VERSIONS.map((v) => (

@@ -19,15 +19,15 @@ export type ContentVersion = {
 export const AGE_VERSIONS: AgeVersion[] = [
   {
     id: "children",
-    title: "Jaunākā vecuma bērni",
+    title: "Jaunākā vecuma bērniem",
     subtitle: "Līdz apmēram 11 gadiem",
     href: "/berniem",
     available: true,
   },
   {
     id: "teens",
-    title: "Pusaudžiem",
-    subtitle: "No 12 gadiem — versijas 12–14 un 15–18",
+    title: "Pusaudžiem no 12 gadiem",
+    subtitle: "Versijas 12–14 un 15–18 gadiem",
     href: "/pusaudziem",
     available: true,
   },
@@ -43,14 +43,14 @@ export const AGE_VERSIONS: AgeVersion[] = [
 export const TEEN_VERSIONS: ContentVersion[] = [
   {
     id: "12-14",
-    title: "12–14 gadi",
+    title: "12–14 gadiem",
     subtitle: "Sirdsapziņas izmeklēšana jaunākiem pusaudžiem",
     href: "/pusaudziem/12-14",
     available: true,
   },
   {
     id: "15-18",
-    title: "15–18 gadi",
+    title: "15–18 gadiem",
     subtitle: "Sirdsapziņas izmeklēšana vecākiem pusaudžiem",
     href: "/pusaudziem/15-18",
     available: true,

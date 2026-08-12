@@ -15,7 +15,7 @@ export default function ChildrenConfessionPage() {
       appData={appData}
       pdfData={pdfData}
       storageKey="greksudze-confession-children"
-      versionLabel="Jaunākā vecuma bērni"
+      versionLabel="Jaunākā vecuma bērniem"
       questionsHeading="Vai tas attiecas uz mani?"
       theme="children"
     />

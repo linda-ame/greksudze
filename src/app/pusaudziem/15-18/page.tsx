@@ -15,7 +15,7 @@ export default function Teens1518Page() {
       appData={appData}
       pdfData={pdfData}
       storageKey="greksudze-confession-teens-15-18"
-      versionLabel="Pusaudžiem 15–18"
+      versionLabel="15–18 gadiem"
     />
   );
 }

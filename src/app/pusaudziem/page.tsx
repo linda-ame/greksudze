@@ -13,7 +13,7 @@ export default function TeensIndexPage() {
           <span className="welcome-brand">Grēksūdze</span>
         </Link>
         <section className="welcome-panel">
-          <h1 className="welcome-title">Pusaudžiem</h1>
+          <h1 className="welcome-title">Pusaudžiem no 12 gadiem</h1>
           <p className="welcome-lead">
             Izvēlies versiju pēc vecuma. Saturs abās versijās atšķiras.
           </p>
