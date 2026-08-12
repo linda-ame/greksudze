@@ -2,7 +2,7 @@
 
 .confession-app {
   color: var(--ink);
-  animation: confession-in 0.45s ease-out both;
+  animation: confession-in 0.45s ease-out;
 }
 
 .confession-header {
@@ -374,10 +374,11 @@
   inset: 0;
   background: rgba(0, 0, 0, 0.45);
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
   z-index: 1000;
   padding: 16px;
+  padding-bottom: max(24px, env(safe-area-inset-bottom, 0px));
 }
 
 .confession-modal-box {
@@ -388,6 +389,8 @@
   max-width: 420px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
   text-align: center;
+  max-height: min(80dvh, 520px);
+  overflow-y: auto;
 }
 
 .confession-modal-box p {

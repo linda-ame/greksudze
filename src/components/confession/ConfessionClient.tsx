@@ -423,6 +423,7 @@ export function ConfessionClient({
           {pdfError && <p className="confession-error">{pdfError}</p>}
         </section>
       )}
+    </main>
 
       {showClear && (
         <div className="confession-modal" role="dialog" aria-modal="true">
@@ -454,7 +455,6 @@ export function ConfessionClient({
           </div>
         </div>
       )}
-    </main>
     </div>
   );
 }
