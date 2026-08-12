@@ -14,10 +14,6 @@ export default function AdultsIndexPage() {
         </Link>
         <section className="welcome-panel">
           <h1 className="welcome-title">Pieaugušajiem</h1>
-          <p className="welcome-lead">
-            Izvēlies sirdsapziņas izmeklēšanas versiju. Vēlāk šeit būs vairākas
-            iespējas.
-          </p>
           <ul className="age-list">
             {ADULT_VERSIONS.map((v) => (
               <li key={v.id}>
